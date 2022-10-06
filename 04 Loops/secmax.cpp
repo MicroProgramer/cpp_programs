@@ -1,0 +1,25 @@
+#include <iostream>
+#include <conio.h>
+#include <iostream.h>
+
+
+main()
+{
+	  int nStudents,i,marks;
+	  cout<<"enter number of student: ";
+	  cin>>nStudents;
+	  
+	  i=1;
+	  while(i<=nStudents)
+	  {
+  		cout<<"enter marks ofeach student:";
+  		cin>>marks;
+  		
+  		i++;
+	  }
+	
+	
+	
+	getch();
+}
+

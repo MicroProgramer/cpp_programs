@@ -1,0 +1,26 @@
+#include <iostream>
+#include <conio.h>
+#include <iostream.h>
+
+
+main()
+{
+	char ch;
+	int nWords, nChars;
+	
+	
+	while(true)
+	{
+		ch = getche();
+		
+		if(ch >= '0'  && ch <= '9')
+		{
+			cout<<ch;
+		}
+	}
+
+	
+	getch();
+}
+
+
